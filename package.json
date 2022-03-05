@@ -1,0 +1,46 @@
+{
+  "name": "hym-utils-js",
+  "version": "1.0.2",
+  "description": "实用的js工具函数库",
+  "main": "./dist/hym_utils.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production webpack --config scripts/build.js",
+    "dev": "cross-env NODE_ENV=development webpack serve --config scripts/dev.js",
+    "start": "npm run dev"
+  },
+  "keywords": [
+    "hym-utils-js"
+  ],
+  "author": "HuangYaoMin",
+  "license": "MIT",
+  "homepage": "https://github.com/18023785187/hym-utils-js",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "core-js": "^3.21.1",
+    "cross-env": "^7.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.2.7",
+    "typescript": "^4.6.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0"
+  },
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  }
+}

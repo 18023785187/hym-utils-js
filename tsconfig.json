@@ -1,0 +1,39 @@
+{
+    "include": [
+        "./src/**/*",
+        "./src/typings/*"
+    ],
+    "files": [
+        "./src/index.ts"
+    ],
+    "compilerOptions": {
+        "paths": {
+            "src/*": [
+                "./src/*"
+            ],
+            "utils": [
+                "./src/utils"
+            ]
+        },
+        "target": "es2020",
+        "outDir": "./dist",
+        "allowJs": true,
+        "alwaysStrict": true,
+        "noImplicitThis": false,
+        "strict": true,
+        "module": "es2020",
+        "moduleResolution": "node",
+        "suppressImplicitAnyIndexErrors": true,
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "es2020"
+        ],
+        "declaration": true,
+        "declarationDir": "dist",
+        "typeRoots": [
+            "./types",
+            "./node_modules/@types"
+        ]
+    }
+}
