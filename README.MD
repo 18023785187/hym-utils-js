@@ -9,19 +9,19 @@
 # 安装
 
 ```
-$ npm i hym-utils -S
+$ npm i hym-utils-js -S
 ```
 
 # 引入
 
 ```typescript
 // js
-import * as hymUtils from 'hym-utils'
+import * as hymUtilsJs from 'hym-utils-js'
 
-console.log(hymUtils.isMobile())
+console.log(hymUtilsJs.isMobile())
 
 // 或者
-import { isMobile } from 'hym-utils'
+import { isMobile } from 'hym-utils-js'
 
 console.log(isMobile())
 ```
